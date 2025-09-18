@@ -1,17 +1,18 @@
-import React from "react"
+import React from 'react'
+
 
 const Hero = () => {
   return (
-    <>
-    {/* Hero Header Starts */}
-
-    <div className="hero-section" style={{backgroundImage: "url('/images/hero-bg.jpg')"}}>
-
+    <div>
+    
+    <div>
+     
+      <img src="src\assets\images\bg3.webp" className='h-[600px] w-full' alt="" />
+      
     </div>
 
-     {/* Hero Header End */}
-    </>
+    </div>
   )
 }
 
-export default Hero;
+export default Hero
