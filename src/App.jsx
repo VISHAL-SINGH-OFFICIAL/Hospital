@@ -1,19 +1,21 @@
 import React from 'react'
 import Header from './component/Header'
 import Hero from './component/Hero'
-import AboutStart from './component/AboutStart'
+import RunningCmp from './component/RunningCmp'
+import Marquee from "react-fast-marquee";
+import AboutStart from './component/AboutStart';
 
 const App = () => {
   return (
     <>
-      <div className='relative'>
-        <Header />
-        <Hero />
-        <AboutStart />
-
-      </div>
+      <Header />
+      <Hero />
+      <AboutStart/>
+      <Marquee>
+      <RunningCmp />
+      </Marquee>
     </>
   )
 }
 
-export default App
+export default App;

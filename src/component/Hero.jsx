@@ -1,15 +1,18 @@
 import React from 'react'
-import Header from './Header';
 
 
 const Hero = () => {
-     return (
-          <>
-               <div>
-                    <img src="src\assets\all-images\bg\bg3.png" className='w-full' alt="" />
-               </div>
-          </>
-     )
+  return (
+    <div>
+    
+    <div>
+     
+      <img src="src\assets\images\bg3.webp" className='h-[600px] w-full' alt="" />
+      
+    </div>
+
+    </div>
+  )
 }
 
-export default Hero;
+export default Hero
