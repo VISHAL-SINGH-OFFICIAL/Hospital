@@ -51,18 +51,18 @@ const NumberCounter = ({ endValue, duration = 2000, suffix = '' }) => {
 const AboutStart = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="flex flex-col lg:flex-row items-center gap-12">
+      <div className="flex flex-col lg:flex-row items-center gap-12 justify-center">
         {/* Left Side - Image */}
         <div className="lg:w-1/2">
           <img 
             src="src/assets/all-images/About/about-img9.png" 
             alt="Doctor caring for patient" 
-            className="w-full rounded-lg shadow-lg"
+            className="w-[550px] rounded-lg shadow-lg h-[450px] ml-10"
           />
         </div>
 
         {/* Right Side - Content */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 h-[550px]">
           {/* Badge */}
           <div className="inline-flex items-center bg-purple-100 rounded-full px-4 py-2 mb-6">
             <span className="text-sm text-indigo-600">Medicax</span>

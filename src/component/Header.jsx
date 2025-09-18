@@ -1,6 +1,6 @@
 import React from "react";
-import bg3 from "../assets/images/bg3.webp";
-import logo from "../assets/logo.png";
+import bg3 from "../assets/all-images/bg/bg3.png";
+import logo from "../assets/logo.png"
 import doctorImg from "../assets/images/doctorImg.png";
 
 const Header = () => {
